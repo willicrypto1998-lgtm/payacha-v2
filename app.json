@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Payacha Stock Pro",
+    "slug": "payachaapp",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#085041"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#085041"
+      },
+      "package": "dz.waldev.payacha.stock",
+      "targetSdkVersion": 34,
+      "permissions": ["android.permission.CAMERA", "android.permission.VIBRATE"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb0cd761-a929-4e21-b07c-d1d21c57eda6"
+      }
+    }
+  }
+}
