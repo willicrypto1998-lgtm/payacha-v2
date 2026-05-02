@@ -18,7 +18,9 @@
       },
       "package": "dz.waldev.payacha.stock",
       "targetSdkVersion": 34,
-      "permissions": ["android.permission.CAMERA", "android.permission.VIBRATE"]
+      "compileSdkVersion": 34,
+      "buildToolsVersion": "34.0.0",
+      "permissions": ["android.permission.CAMERA","android.permission.VIBRATE"]
     },
     "extra": {
       "eas": {
